@@ -47,7 +47,7 @@ function WorkOutForm() {
     <Wrapper>
       <form onSubmit={handleSubmit}>
         <FormGroup>
-          <label htmlFor="title">Title</label>
+          <label htmlFor="title">Title: Gym or Yoga</label>
           <input
             type="text"
             id="title"
@@ -68,7 +68,7 @@ function WorkOutForm() {
           />
         </FormGroup>
         <FormGroup>
-          <label htmlFor="parti">parti</label>
+          <label htmlFor="parti">name</label>
           <input
             type="text"
             id="parti"
@@ -85,7 +85,7 @@ function WorkOutForm() {
           />
         </FormGroup>
         <FormGroup>
-          <label htmlFor="user_url">Poster</label>
+          <label htmlFor="user_url">User Picture</label>
           <input
             type="text"
             id="user_url"

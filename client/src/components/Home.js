@@ -10,7 +10,7 @@ function Home({ user }) {
       <div className="body-back">
         <div className="yog">
             <div class="portfolio-description">
-              <h2>Welcome! <span>To Serenity Strength & ZenFit Yoga </span></h2>
+              <h2>Welcome! <br/><span>To Serenity Strength & ZenFit Yoga </span></h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium

@@ -24,12 +24,13 @@ function Login({ setUser }) {
     <div className="container">
       <form className="form" onSubmit={handleSubmit}>
         <h1>Login</h1>
-        <label htmlFor="username">Username</label>
+        <label htmlFor="username">Email</label>
         <input
           type="text"
           id="username"
           autoComplete="off"
           value={username}
+          placeholder="Enter Email"
           onChange={(e) => setUsername(e.target.value)}
         />
         <label htmlFor="password">Password</label>
@@ -38,6 +39,7 @@ function Login({ setUser }) {
           id="password"
           autoComplete="current-password"
           value={password}
+          placeholder="Enter password"
           onChange={(e) => setPassword(e.target.value)}
         />
         <button type="submit">Login</button>
