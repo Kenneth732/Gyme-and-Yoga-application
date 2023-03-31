@@ -1,64 +1,54 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Gym Backend or Makuembe-WorkOut
 
 
- npx create-react-app client --use-npm
+Gym Backend is a Ruby on Rails application that serves as the backend for the React Gym application. Gym Backend provides the API endpoints that the React Gym frontend interacts with to create and manage user accounts, workout routines, and progress tracking data.
 
- rails s
+# Installation
 
- npm start --prefix client
+To install Gym Backend, you will need to have Ruby and Rails installed on your machine. Once you have Ruby and Rails installed, follow these steps:
+
+Clone the repository to your local machine:
+
+```
+git clone https://github.com/<username>/gym-backend.git
+
+```
+2 Navigate to the project directory:
+
+```
+cd gym-backend
+```
+
+3 Install the project dependencies:
+
+```
+bundle install
+```
+
+# Usage
+To start the Rails server, run the following command:
+
+```
+rails server
+```
+This will start the server on port 3000 and make your application accessible at http://localhost:3000.
+
+Endpoints
 
 
- gem install foreman
+Gym Backend provides the following API endpoints:
 
+/api/v1/users: Allows users to create and manage their accounts.
+/api/v1/workout_routines: Allows users to create and manage their workout routines.
+/api/v1/progress_tracking: Allows users to track their progress over time.
 
-In the root directory, create a file Procfile.dev and add this code:
+# Database
+Gym Backend uses SQLite as the default database. To set up the database, run the following command:
 
-web: PORT=4000 npm start --prefix client
-api: PORT=3000 rails s
+```
+rails db:create db:migrate
 
- foreman start -f Procfile.dev
+```
 
+This will create the development and test databases and run any pending migrations.
 
- rails g serializer director
-
- rails g serializer director_movie
-
-
- rails g serializer review
-
-rails g controller Sessions --no-test-framework
-
-rails g resource user username password_digest --no-test-framework
-
-rails g resource user username password_digest:integer --no-test-framework
-
-rails g serializer user
-
-rails g controller Sessions --no-test-framework
-
-rails g controller Users --no-test-framework
-
-rails g serializer workout
