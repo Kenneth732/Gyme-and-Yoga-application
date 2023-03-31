@@ -175,7 +175,49 @@ header {
   transform: scale(1.9);
   color: #fff;
 }
+.navbar{
+  position: relative;
+}
+.search{
 
+  border-radius: 20px;
+  display: flex;
+  padding: 15px 30px;
+  width: 20%;
+  align-items: center;
+  justify-content: space-between;
+  /* border:2px solid #fff; */
+  box-shadow:0 0 15px 4px rgba(255, 253, 253, 0.06);
+  transition: .5 ease;
+}
+
+
+
+@media only screen and (max-width: 766px)  {
+  .x p{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 643px)  {
+  .x p{
+    display: none;
+  }
+  .search{
+    /* border: 2px solid red; */
+    width:40%;
+    margin-left: 20%;
+    position: absolute;
+    top: 15px;
+  }
+}
+@media only screen and (max-width: 526px)  {
+  .x p{
+    display: none;
+  }
+  .search {display: none;
+  }
+}
 
   header a,
   header button {
@@ -191,7 +233,94 @@ header {
   }
 
 
+  .search input{
+    border:0;
+    background: transparent;
+    color: #ffff;
+    width: 80%;
+    padding: 5px 0px;
+  }
+.x{
+  background: transparent;
+  color: #fff;
+}
+li{
+  list-style: none;
+  color: #fff;
+}
+li i{
+  font-size: 15px;
+}
 
+/* .navi{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 120px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.navi .userBx{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: red;
+  cursor: pointer;
+}
+
+.navi .userBx .imgBx{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  overflow: hidden;
+}
+
+.navi .userBx .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navi .menuTgle{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  /* background: red; */
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navi .menuTgle::before{
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  transform: translateY(-10px);
+  box-shadow: 0 10px #444;
+  background-color: #555;
+  transition: .5s ease;
+}
+
+.navi .menuTgle::after{
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  transform: translateY(10px);
+
+  background-color: #555;
+  transition: .5s ease;
+} */
 /*   
   form {
     background-color: #fff8e7;

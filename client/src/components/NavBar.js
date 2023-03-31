@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Icon from "./Icon";
 // import LogoPic from '../assets/png-transparent-gym-logo-fitness-removebg-preview';
 
 
@@ -14,18 +15,33 @@ function NavBar({ user, setUser }) {
 
   return (
     <header className="header">
-      <div>
-        <Link to="/login">
-        <i class="fas fa-dumbbell"></i>
-        </Link>
+      <div className="navbar">
+      <Link to="/login" className="x">
+        <div className="code-x">
+          <i class="fas fa-circle vxv"></i>
+          <i class="fas fa-circle v"></i>
+          <i class="fas fa-circle vx"></i>
+        </div>
+      </Link>
+      <Link to="/login" className="x">
+        <p>Home</p>
+      </Link>
+      <Link to="/login" className="x">
+        <p>About</p>
+      </Link>
       </div>
+      <ul className="search">
+        <input placeholder="Search" />
+          <li><i class="bi bi-search"></i></li>
+      </ul>
       <div>
+        <Icon/>
         {user ? (
           <button onClick={handleLogoutClick}>Logout</button>
         ) : (
           <>
-            <Link to="/signup">Signup</Link>
-            <Link to="/login">Login</Link>
+            <Link to="/signup" className="x">Signup</Link>
+            <Link to="/login" className="x">Login</Link>
           </>
         )}
       </div>

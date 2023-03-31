@@ -9,20 +9,23 @@ function Home({ user }) {
     return (
       <div className="body-back">
         <div className="yog">
-            <div class="portfolio-description">
-              <h2>Welcome! <br/><span>To Serenity Strength & ZenFit Yoga </span></h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam</p>
-              <div class="portfolio-social-icons">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
-                <a href="#"><i class="bi bi-telegram"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
+          <div class="portfolio-description">
+            <div className="content">
+              <div>
+                <h2>Serenity Strength  <br /><span>& ZenFit Yoga </span></h2>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                  molestiae quas vel sint commodi repudiandae consequuntur te aliquam</p>
               </div>
             </div>
+            <div class="portfolio-social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-telegram"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     )

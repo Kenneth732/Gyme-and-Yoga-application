@@ -2,8 +2,8 @@
     margin-top: 0;
     position: absolute;
     width: 100%;
-    height: 91vh;
-    background: url('https://i0.wp.com/www.strengthlog.com/wp-content/uploads/2022/04/bodybuilding-vs-strength-training.jpg?fit=1000%2C535&ssl=1');
+    height: 86.7%;
+    background: url('https://media.discordapp.net/attachments/989739661045940294/1091350291129044992/Abreth_flowerrs_water_paint_style_4k_splash_5f7e19eb-d844-4a13-9b03-76cdea61b48c.png?width=600&height=600');
     background-position: center;
     background-size: cover;
 }
@@ -26,22 +26,41 @@
     color: #fff;
     margin-bottom: 100px;
 }
-
-.yog .portfolio-description p{
-    color: #fff;
-    line-height: 1.1;
-    font-size: 25px;
-    width: 60%;
-    text-align: center;
+.code-x{
+    /* border: red 2px solid; */
+    width: 140%;
+    display: flex;
     align-items: center;
-    margin: 0 20%;
+    justify-content: space-between;
+}
+.vxv:checked{
+    color: yellow;
+}
+.vxv{
+    color: red;
+}
+.v{
+    color: yellow;
+}
+.vx{
+    color: greenyellow;
 }
 
 
 
 .yog .portfolio-description .portfolio-social-icons{
-    /* position: absolute; */
-    margin-top: 20%;
+    position: absolute;
+    margin: 1.5% 40%;
+    text-align: center;
+    /* margin-top: 10%; */
     bottom: 0;
     gap: 80px;
+}
+.portfolio-description .content{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 10px;
+}
+.portfolio-description p{
+    width: 100%;
 }
