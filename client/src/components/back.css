@@ -12,7 +12,6 @@
 
     width: 100%;
     height: 60vh;
-
 }
 
 .yog .portfolio-description h2{
@@ -50,11 +49,13 @@
 
 .yog .portfolio-description .portfolio-social-icons{
     position: absolute;
-    margin: 1.5% 40%;
+    /* margin: 1.5% 40%; */
     text-align: center;
     /* margin-top: 10%; */
     bottom: 0;
     gap: 80px;
+    /* border: 2px solid red; */
+    width: 99%;
 }
 .portfolio-description .content{
     /* border: 2px solid red; */

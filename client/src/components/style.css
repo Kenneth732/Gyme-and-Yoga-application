@@ -1,6 +1,11 @@
 .logo-image{
     width: 60px;
 }
+.nav{
+    border: 2px solid red;
+    width: 100%;
+    justify-content: space-between;
+}
 .container-1{
     /* border: 2px solid red; */
     padding: 10px;

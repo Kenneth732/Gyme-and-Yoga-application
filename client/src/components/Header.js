@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import './style.css'
-import Logos from '../assets/png-transparent-gym-logo-fitness-removebg-preview.png'
+// import Logos from '../assets/png-transparent-gym-logo-fitness-removebg-preview.png'
 
 function Header() {
   return (
     <Wrapper>
-      <img src={Logos}  className="logo-image"/>
+      {/* <img src={Logos}  className="logo-image"/> */}
       {/* <Logo><img src="./png-transparent-gym-logo-fitness-removebg-preview.png" />FlockBuster</Logo> */}
       <nav>
         <StyledLink exact to="/">
@@ -25,12 +25,11 @@ const Wrapper = styled.header`
   justify-content: space-between;
   align-items: baseline;
   padding: 16px 32px;
-  // box-shadow: 0px 1px 1px 1px rgb(216,148,10);
-  background: #ccc;
   box-shadow: 0px 2px 4px rgba(0,0,0,0.15), 
               0px 4px 8px rgba(0,0,0,0.15), 
               0px 8px 16px rgba(0,0,0,0.15), 
               0px 16px 32px rgba(0,0,0,0.15);
+    justify-content: space-between;
 `;
 
 const Logo = styled.h1`

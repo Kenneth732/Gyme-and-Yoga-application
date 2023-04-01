@@ -28,10 +28,8 @@ function SignUp({ setUser }) {
   return (
     <div className="banner">
       <div className="container">
-        <div class="portfolio">
-          <h1 class="portfolio-logo">
-          </h1>
-          <div class="portfolio-description">
+        <div class="portfolio pdx">
+          <div class="portfolio-description pd">
             <h2>Welcome! <span>To Our Site</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Valiptatum</p>
             <div class="portfolio-social-icons">
@@ -43,7 +41,7 @@ function SignUp({ setUser }) {
           </div>
         </div>
 
-        <div className="logine-form">
+        <div className="logine-form px">
           <div className="form-box login">
             <form onSubmit={handleSubmit}>
               <h1>Sign Up</h1>
