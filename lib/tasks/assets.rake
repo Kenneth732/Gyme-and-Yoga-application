@@ -1,20 +1,13 @@
+# assets.rake
 namespace :assets do
     desc "Precompile assets"
     task :precompile do
-      on roles(:web) do
-        within release_path do
-          execute :rake, "assets:precompile"
-        end
-      end
+      system("rake assets:precompile")
     end
   
     desc "Clean assets"
     task :clean do
-      on roles(:web) do
-        within release_path do
-          execute :rake, "assets:clean"
-        end
-      end
+      system("rake assets:clean")
     end
   end
   
