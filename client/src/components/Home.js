@@ -20,10 +20,10 @@ function Home({ user }) {
               </div>
             </div>
             <div class="portfolio-social-icons">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-telegram"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="face.com"><i class="bi bi-facebook"></i></a>
+              <a href="linkin.com"><i class="bi bi-linkedin"></i></a>
+              <a href="telegram.com"><i class="bi bi-telegram"></i></a>
+              <a href="instergram.com"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>
