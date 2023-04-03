@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 import CategoryFilter from "./CategoryFilter";
 import WorkOutCard from "./WorkOutCard";
 import './style.css'

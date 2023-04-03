@@ -19,9 +19,12 @@ h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-color: #666;
+color: #fff;
 }
 
+label{
+  color: #fff;
+}
 label {
   display: block;
   font-weight: bold;

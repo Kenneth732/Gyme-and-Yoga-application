@@ -33,10 +33,10 @@ function SignUp({ setUser }) {
             <h2>Welcome! <span>To Our Site</span></h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Valiptatum</p>
             <div class="portfolio-social-icons">
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-telegram"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="facebook.com"><i class="bi bi-facebook"></i></a>
+              <a href="linkin.com"><i class="bi bi-linkedin"></i></a>
+              <a href="telegram.com"><i class="bi bi-telegram"></i></a>
+              <a href="instagram.com"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function SignUp({ setUser }) {
                 {/* <label htmlFor="password">Password Confirmation</label> */}
                 <input
                   type="password"
-                  placeholder="Password Confirmation<"
+                  placeholder="Password Confirmation"
                   id="password_confirmation"
                   value={passwordConfirmation}
                   onChange={(e) => setPasswordConfirmation(e.target.value)}
