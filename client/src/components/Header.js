@@ -1,13 +1,10 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import './style.css'
-// import Logos from '../assets/png-transparent-gym-logo-fitness-removebg-preview.png'
 
 function Header() {
   return (
     <Wrapper>
-      {/* <img src={Logos}  className="logo-image"/> */}
-      {/* <Logo><img src="./png-transparent-gym-logo-fitness-removebg-preview.png" />FlockBuster</Logo> */}
       <nav>
         <StyledLink exact to="/">
           Home
@@ -32,12 +29,7 @@ const Wrapper = styled.header`
     justify-content: space-between;
 `;
 
-const Logo = styled.h1`
-  font-family: "Londrina Outline", cursive;
-  margin: 0;
-  color: #fff;
-  font-size: 3rem;
-`;
+
 
 const StyledLink = styled(NavLink)`
   text-decoration: none;
