@@ -2,6 +2,7 @@
 body{
   background: rgb(20, 20, 34);
 }
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 header {
     display: flex;
     justify-content: space-between;
@@ -110,10 +111,11 @@ header {
       /* code here */
     }
   }
-  .portfolio-description h2 {
-    font-size: 2rem;
+  .portfolio-description .content div h2 {
+    font-size: 60px;
     /* margin-left: 10px; */
     font-weight: 400;
+    font-family: 'Fasthand', cursive;
     color: #eee;
     margin-bottom: 1rem;
   }
@@ -122,10 +124,26 @@ header {
     font-weight: 700;
     color: #ff5722;
   }
+
+  @media only screen and (max-width: 620px)  {
+    .portfolio-description .content{
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      margin-left: 30px;
+    }
+    .portfolio-description .content div h2 {
+      font-size: 50px;
+      text-align: center;
+    }
+    .portfolio-description .content p{
+      font-size: 20px;
+    }
+  }
   
   .portfolio-description p {
     font-size: 1.2rem;
-    color: #666;
+    color: #eee;
     line-height: 1.5;
     margin-bottom: 1rem;
   }

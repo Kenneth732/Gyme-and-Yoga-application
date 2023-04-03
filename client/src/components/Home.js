@@ -12,7 +12,7 @@ function Home({ user }) {
           <div class="portfolio-description">
             <div className="content">
               <div>
-                <h2>Serenity Strength  <br /><span>& ZenFit Yoga </span></h2>
+                <h2 className="text-info">Serenity Strength  <br /><span>& ZenFit Yoga </span></h2>
               </div>
               <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
