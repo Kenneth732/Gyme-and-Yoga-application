@@ -13,6 +13,10 @@ Clone the repository to your local machine:
 git clone https://github.com/<username>/gym-backend.git
 
 ```
+# Live
+```
+https://client-sw8g.onrender.com/
+```
 2 Navigate to the project directory:
 
 ```
